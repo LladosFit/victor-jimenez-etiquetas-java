@@ -1,9 +1,9 @@
-public class MAin {
+public class Main {
 	public satatic void main(String[] args){
-		if(args.lenght == 0){
-			System.out.println("No hay argumentos");
-		}else{
-			System.out.println("Hay " + arg.lenght() + " argumentos");
-		}
+		ArrayList<String> array=new ArrayList<String>();
+			array.add(arg);
+		for(String arg:array){
+			System.out.println(arg);
+		}	
 	}
 }
